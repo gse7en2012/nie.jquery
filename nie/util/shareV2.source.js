@@ -245,9 +245,7 @@ nie.util.share_css=nie.util.share_css||false;
                                     o.data[index].searchTxt.toLowerCase().indexOf(val)!=-1
                                     ||
                                     o.data[index].searchTxt.replace(/[a-z]/g,"").toLowerCase().indexOf(val)!=-1){
-                                    self.show();
                                 }
-                                else self.hide();
                             });
                         });
                 },
